@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.788);
+    border-right: 2px solid rgba(0, 0, 0, 0.788);
+    text-align: center;
+    width: 400px;
+    box-shadow: 4px 4px 4px darkcyan;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    transition: all 0.2s;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
